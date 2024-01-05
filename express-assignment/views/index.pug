@@ -1,0 +1,9 @@
+html
+  head
+    title Home
+  body
+    h1 Welcome to the Home Page
+    a(href='/about') Go to About Page
+    form(action='/submit' method='post')
+      input(type='text' name='message' placeholder='Enter a message')
+      button(type='submit') Submit
